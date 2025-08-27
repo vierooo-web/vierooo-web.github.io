@@ -1,30 +1,14 @@
-<!--=========================-!>
-Mau custom web ucapan online & tanpa watermark? Order Aja di Deka Tutorial !! (DM IG untuk order)
-+ Youtube: Deka Tutorial
-+ Tiktok: @deka_tutorial
-+ Instagram: deka_tutorial
-<-===========================-->
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Special For You</title>
-    <script src="https://dekatutorial.github.io/flwr/s.js"></script>
-  </head>
-  <body>
-    <div class="open">
-      <i>❤️</i>
-      <span>LOPE BUAT KAMU DITEKAN YA</span>
-    </div>
-
-    <script>
-      ucapan = `makasih ya udah ditekan hatinya, aku mau minta maap kalo ada salah`;
-      musik = ``;
-      nomorWhatsapp = ``;
-      idTelegram = ``;
-
-      DekaTutorial(ucapan, musik, nomorWhatsapp, idTelegram);
-    </script>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <div class="flower">
+    <div class="petal" style="top: 0; left: 25px;"></div>
+    <div class="petal" style="top: 25px; left: 0;"></div>
+    <div class="petal" style="top: 25px; right: 0;"></div>
+    <div class="petal" style="bottom: 0; left: 25px;"></div>
+  </div>
   </body>
 </html>
